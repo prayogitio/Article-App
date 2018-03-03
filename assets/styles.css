@@ -1,0 +1,11 @@
+.site-form {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+.site-form input, .site-form textarea {
+    display: block;
+    border-radius: 5px;
+    padding: 10px;
+}

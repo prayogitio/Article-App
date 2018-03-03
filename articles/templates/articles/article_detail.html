@@ -1,0 +1,13 @@
+{% extends 'base_layout.html' %}
+
+{% block content %}
+<div class="col-lg-6 col-lg-offset-3">
+    <div class="panel panel-default" style="width: 100%">
+        <div class="panel-heading"><h2>{{ article.title }}</h2> by {{ article.author.username }}, posted at {{ article.date }}</div>
+        <img src="{{ article.thumb.url }}" style="width: 100%;"/>
+        <div class="panel-body">
+            <p>{{ article.body }}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

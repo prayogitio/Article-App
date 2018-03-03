@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'yuhuuarticle.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dcr5btede8f11s',
+        'USER': 'zojfdhxxgpxygd',
+        'PASSWORD': '7d34d2ea269e7ec9368b63cae0ab3e62bbe825324e2911f826df5287878a9462',
+        'HOST': 'ec2-54-243-31-34.compute-1.amazonaws.com',
+        'PORT': '5432'
     }
 }
 

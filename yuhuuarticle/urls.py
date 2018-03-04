@@ -17,6 +17,5 @@ urlpatterns = [
 #THIS IS FOR ASSETS AND MEDIA
 urlpatterns += staticfiles_urlpatterns()
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
 #virtualenv env --no-site-packages
 #then search for Scripts folder run activate

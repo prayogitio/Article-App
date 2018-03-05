@@ -3,7 +3,7 @@
     <h1 class="text-center">Article List</h1>
     <div class="row">
         {% for article in articles %}
-        <div class="col-md-4 panel panel-default">
+        <div class="col-md-6 panel panel-default">
             <h2><a href="{% url 'articles:detail' slug=article.slug %}">{{ article.title }}</a></h2>
             <p>Snippet: {{ article.snippet }}</p>
             <p>Posted: {{ article.date }}</p>
